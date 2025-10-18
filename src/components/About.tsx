@@ -82,19 +82,10 @@ export const About = () => {
                   transition={{ duration: 0.5, delay: 0.6 + index * 0.1 }}
                   className="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-all duration-300"
                 >
-                  <div className="flex items-center mb-4">
+                  <div className="flex items-center justify-center">
                     <skill.icon className="w-6 h-6 text-primary mr-3" />
                     <span className="font-semibold text-foreground">{skill.name}</span>
                   </div>
-                  <div className="relative h-2 bg-muted rounded-full overflow-hidden">
-                    <motion.div
-                      className="absolute top-0 left-0 h-full bg-gradient-to-r from-primary to-secondary rounded-full"
-                      initial={{ width: 0 }}
-                      animate={inView ? { width: `${skill.level}%` } : {}}
-                      transition={{ duration: 1, delay: 0.8 + index * 0.1, ease: "easeOut" }}
-                    />
-                  </div>
-                  <div className="text-right mt-2 text-sm text-muted-foreground">{skill.level}%</div>
                 </motion.div>
               ))}
             </div>
