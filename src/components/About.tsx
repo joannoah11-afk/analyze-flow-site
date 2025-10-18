@@ -61,7 +61,7 @@ export const About = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
             >
               <p className="text-lg text-foreground mb-6 leading-relaxed">
-                I'm a <span className="text-primary font-semibold">Data Analyst fresher</span> passionate about transforming raw data into actionable insights. 
+                I'm a <span className="text-primary font-semibold">Data Analyst</span> passionate about transforming raw data into actionable insights.
                 With expertise in Python, SQL, and modern visualization tools, I help organizations make data-driven decisions.
               </p>
               <p className="text-muted-foreground mb-8">
