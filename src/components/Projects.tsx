@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
-import { ExternalLink, Github, BarChart3, Users, Activity } from "lucide-react";
+import { ExternalLink, Github, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -11,24 +11,6 @@ const projects = [
     tools: ["Power BI", "Excel", "DAX"],
     icon: BarChart3,
     details: "Built comprehensive sales analytics dashboard featuring real-time KPI tracking, regional performance comparison, and predictive sales forecasting. Implemented custom DAX measures for advanced calculations.",
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "Customer Segmentation",
-    description: "Machine learning project using K-Means clustering to segment customers based on purchasing behavior.",
-    tools: ["Python", "Scikit-learn", "Pandas"],
-    icon: Users,
-    details: "Performed RFM analysis and applied K-Means clustering algorithm to identify distinct customer segments. Created visualization dashboards to present insights and recommendations for targeted marketing strategies.",
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "COVID-19 Data Analysis",
-    description: "Comprehensive analysis of COVID-19 trends using Tableau with interactive visualizations.",
-    tools: ["Tableau", "SQL", "Python"],
-    icon: Activity,
-    details: "Analyzed global COVID-19 data to identify trends, patterns, and correlations. Created interactive Tableau dashboards showing infection rates, vaccination progress, and comparative analysis across countries.",
     link: "#",
     github: "#",
   },
