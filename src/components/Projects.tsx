@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Sales Dashboard using Power BI",
+    title: "HR Dashboard",
     description: "Interactive dashboard analyzing sales performance across regions with KPIs, trends, and forecasting.",
     tools: ["Power BI", "Excel", "DAX"],
     icon: BarChart3,
