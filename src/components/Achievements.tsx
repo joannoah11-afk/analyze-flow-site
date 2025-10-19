@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Award, BookOpen, Trophy, Star } from "lucide-react";
+import { Award, Trophy, Star } from "lucide-react";
 
 const achievements = [
   {
@@ -16,13 +16,6 @@ const achievements = [
     organization: "Microsoft",
     icon: Trophy,
     description: "Certified in Power BI for creating interactive dashboards and business intelligence solutions",
-  },
-  {
-    year: "2023",
-    title: "Excel for Business Specialization",
-    organization: "Coursera",
-    icon: BookOpen,
-    description: "Advanced Excel skills including financial modeling, VBA, and data analysis",
   },
   {
     year: "2023",

@@ -87,7 +87,7 @@ export const Contact = () => {
 
               <div className="space-y-4">
                 <motion.a
-                  href="mailto:your.email@example.com"
+                  href="mailto:joannoah11@gmail.com"
                   className="flex items-center gap-4 p-4 bg-card border border-border rounded-lg hover:border-primary/50 transition-all duration-300 group"
                   whileHover={{ x: 10 }}
                 >
@@ -96,12 +96,12 @@ export const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <p className="text-sm text-muted-foreground">your.email@example.com</p>
+                    <p className="text-sm text-muted-foreground">joannoah11@gmail.com</p>
                   </div>
                 </motion.a>
 
                 <motion.a
-                  href="https://linkedin.com/in/yourprofile"
+                  href="https://www.linkedin.com/in/joan-noah10"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-card border border-border rounded-lg hover:border-primary/50 transition-all duration-300 group"
@@ -112,12 +112,12 @@ export const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">LinkedIn</p>
-                    <p className="text-sm text-muted-foreground">linkedin.com/in/yourprofile</p>
+                    <p className="text-sm text-muted-foreground">linkedin.com/in/joan-noah10</p>
                   </div>
                 </motion.a>
 
                 <motion.a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/joannoah11-afk"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-card border border-border rounded-lg hover:border-primary/50 transition-all duration-300 group"
@@ -128,7 +128,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">GitHub</p>
-                    <p className="text-sm text-muted-foreground">github.com/yourusername</p>
+                    <p className="text-sm text-muted-foreground">github.com/joannoah11-afk</p>
                   </div>
                 </motion.a>
               </div>
