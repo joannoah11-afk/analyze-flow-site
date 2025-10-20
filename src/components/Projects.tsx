@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState } from "react";
-import { ExternalLink, Github, BarChart3 } from "lucide-react";
+import { ExternalLink, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
@@ -11,8 +11,7 @@ const projects = [
     tools: ["Power BI", "Excel", "DAX"],
     icon: BarChart3,
     details: "Built comprehensive sales analytics dashboard featuring real-time KPI tracking, regional performance comparison, and predictive sales forecasting. Implemented custom DAX measures for advanced calculations.",
-    link: "#",
-    github: "#",
+    link: "/hr_dashboard_1.pbix",
   },
 ];
 
@@ -97,17 +96,12 @@ export const Projects = () => {
                           variant="outline"
                           size="sm"
                           className="border-primary/50 hover:bg-primary/10"
+                          asChild
                         >
-                          <ExternalLink className="w-4 h-4 mr-2" />
-                          View Project
-                        </Button>
-                        <Button
-                          variant="outline"
-                          size="sm"
-                          className="border-primary/50 hover:bg-primary/10"
-                        >
-                          <Github className="w-4 h-4 mr-2" />
-                          Source Code
+                          <a href={project.link} download>
+                            <ExternalLink className="w-4 h-4 mr-2" />
+                            View Project
+                          </a>
                         </Button>
                       </div>
                     </div>
